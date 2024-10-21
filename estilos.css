@@ -1,0 +1,88 @@
+/*estilos basicos para el cuerpo del html*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/*contenedor principal*/
+.contenedor{
+    display: flex;
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+/*estilos para la barra lateral*/
+.barra-lateral{
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/*estilos al nombre*/
+.barra-lateral h1{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.barra-lateral .profesion{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*estilos para la foto de perfil*/
+.barra-lateral img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+/*estilos para las redes sociales*/
+.redes-sociales ul{
+    list-style: none;
+    padding: 0;
+}
+.redes-sociales li{
+    margin-bottom: 10px;
+}
+
+.redes-sociales a{
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover{
+    text-decoration: underline;
+}
+
+.contenido-principal{
+    width: 70%;
+    padding: 20px;
+}
+
+.contenido-principal h2{
+    font-size: 22px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+strong{
+    color: #4c4f50;
+}
+
+.barra{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    height: 15px;
+}
+
+.nivel{
+    height: 100%;
+    
+}
